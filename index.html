@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Char Dham Yatra (Uttarakhand)</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="script.js" />
+  </head>
+  <body>
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+
+      <a href="#" class="logo"><span>T</span>ravel</a>
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#book">book</a>
+        <a href="#packages">packages</a>
+        <a href="#services">services</a>
+        <a href="#gallery">gallery</a>
+        <a href="#review">review</a>
+        <a href="#contact">contact</a>
+      </nav>
+      <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+      </div>
+      <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="Search here ..." />
+        <label for="search-bar" class="fas fa-search"></label>
+      </form>
+    </header>
+
+    <div class="login-form-container">
+        <i class="fas fa-time" id="form-close"></i>
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email..." />
+            <input type="password" class="box" placeholder="password..." />
+            <input type="submit" value="login now" class="btn" />
+            <input type="checkbox" id="remember" />
+            <label for="remember">remember me</label>
+            <p>forget password <a href="">click here</a></p>
+            <p>dont have a account? <a href="">register now</a></p>
+        </form>
+    </div>
+    <section class="home" id="home">
+        <div class="content">
+            <h3>adventure is worthwhile</h3>
+            <p>discover new places with us,adventure awaits</p>
+            <a href="#" class="btn">discover more</a>
+        </div>
+        <div class="controls">
+            <span class="vid-btn active" data-src="video1.mp4"></span>
+            <span class="vid-btn" data-src="video2.mp4"></span>
+            <span class="vid-btn" data-src="video3.mp4"></span>
+            <span class="vid-btn" data-src="video4.mp4"></span>
+            <span class="vid-btn" data-src="video5.mp4"></span>
+            <span class="vid-btn" data-src="video6.mp4"></span>
+        </div>
+        <div class="video-container">
+            <video src="video1.mp4" id="video-slider" loop autoplay></video>
+        </div>
+
+
+    </section>
+    <section class="book" id="book">
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>0</span>
+            <span>w</span>
+        </h1>
+        <div class="row">
+            <div class="image">
+                <img src="img2.png" alt="">
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <h3>where to</h3>
+                    <input type="text" placeholder="place name">
+                </div>
+                <div class="inputBox">
+                    <h3>how many</h3>
+                    <input type="number" placeholder="number of guests">
+                </div>
+                <div class="inputBox">
+                    <h3>arrivals</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>leaving</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="book now">
+            </form>
+        </div>
+
+    </section>
+    <section class="packages" id="packages">
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="Dehradun.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Dehradun</h3>
+                    <p>Also known as the 'Adobe of Drona', Dehradun has always been an important center for Garhwal rulers which was captured by the British.
+                         The headquarters of many National Institutes and Organizations like ONGC, Survey Of India, Forest Research Institute, Indian Institute of Petroleum etc are located in the city.
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">Rs 999.00 <span>Rs 1299.00</span></div>
+                    <a href="#" class="btn"> book now </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Rudraprayag.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Rudraprayag</h3>
+                    <p>While the town is known for revered temples and pristine natural beauty, the presence of two separate routes for Badrinath (around 150 km away) and Kedarnath Dham (around 50 km away)
+                         from Rudraprayag make it an important destination for religious tourism, attracting tourists and devotees throughout the year, who make a beeline for the Shiva and Jagdamba temples here.
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">Rs 2999.00 <span>Rs 4999.00</span></div>
+                    <a href="#" class="btn"> book now </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Badrinath.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Badrinath Temple</h3>
+                    <p>Badarinath or Badarinarayana Temple is a Hindu temple dedicated to Vishnu. It is situated in the town of Badrinath in Uttarakhand, India. The temple is also one of the 108 Divya Desams dedicated to Vishnu—holy shrines for Vaishnavas—who is worshipped as Badrinath.
+                         It is open for six months every year (between the end of April and the beginning of November), because of extreme weather conditions in the Himalayan region.
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">Rs 4999.00 <span>Rs 7999.00</span></div>
+                    <a href="#" class="btn"> book now </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Uttarkashi.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Gangotri</h3>
+                    <p>Gangotri is a town and a Nagar Panchayat (municipality) in Uttarkashi district in the state of Uttarakhand, India.
+                         It is 99 km from Uttarkashi, the main district headquarter. It is a Hindu pilgrim town on the banks of the river Bhagirathi – the origin of the river Ganges. The town is located on the Greater Himalayan Range, at a height of 3,100 metres (10,200 ft). According to a popular Hindu legend, the goddess Ganga descended here when Shiva released the mighty river from the locks of his hair.
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">Rs 1999.00 <span>Rs 3999.00</span></div>
+                    <a href="#" class="btn"> book now </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="Yamunotri-Char-Dham-Info-History-Photos-Timings.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Yamunotri</h3>
+                    <p>Yamunotri, also Jamnotri, is the source of the Yamuna River and the seat of the Goddess Yamuna in Hinduism.
+                        It is situated at an altitude of 3,293 metres (10,804 ft) in the Garhwal Himalayas and located approximately 150 kilometres (93 mi) North of Uttarkashi, the headquarters of the Uttarkashi district in the Garhwal Division of Uttarakhand, India.
+                         It is one of the four sites in India's Chota Char Dham pilgrimage.
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">Rs 1499.00 <span>Rs 2599.00</span></div>
+                    <a href="#" class="btn"> book now </a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="kedarnath.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Kedarnath</h3>
+                    <p>Kedarnath is a town and Nagar Panchayat in Rudraprayag district of Uttarakhand, India, known primarily for the Kedarnath Temple. It is approximately 86 kilometres from Rudraprayag, the district headquarter. Kedarnath is the most remote of the four Chota Char Dham pilgrimage sites. It is located in the Himalayas, about 3,583 m (11,755 ft) above sea level near the Chorabari Glacier, which is the source of the Mandakini river.
+                         The town is flanked by snow-capped peaks, most prominently the Kedarnath Mountain.
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">Rs 7999.00 <span>Rs 9999.00</span></div>
+                    <a href="#" class="btn"> book now </a>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+<section class="services" id="services">
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>affordable hotels</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum illo sapiente nostrum fugit at quia est,
+                 dicta nemo facere alias dignissimos quasi quam nulla tenetur? Voluptatem consequuntur recusandae voluptates deserunt?
+            </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>food and drinks</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum illo sapiente nostrum fugit at quia est,
+                 dicta nemo facere alias dignissimos quasi quam nulla tenetur? Voluptatem consequuntur recusandae voluptates deserunt?
+            </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>safety guides</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum illo sapiente nostrum fugit at quia est,
+                 dicta nemo facere alias dignissimos quasi quam nulla tenetur? Voluptatem consequuntur recusandae voluptates deserunt?
+            </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>safety guides</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum illo sapiente nostrum fugit at quia est,
+                 dicta nemo facere alias dignissimos quasi quam nulla tenetur? Voluptatem consequuntur recusandae voluptates deserunt?
+            </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>around the world</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum illo sapiente nostrum fugit at quia est,
+                 dicta nemo facere alias dignissimos quasi quam nulla tenetur? Voluptatem consequuntur recusandae voluptates deserunt?
+            </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>adventures</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum illo sapiente nostrum fugit at quia est,
+                 dicta nemo facere alias dignissimos quasi quam nulla tenetur? Voluptatem consequuntur recusandae voluptates deserunt?
+            </p>
+        </div>
+    </div>
+</section>
+
+
+<section class="gallery" id="gallery">
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="nainital-one-of-the-bets-places-to-visit-in-uttarkahnd.webp" alt="">
+            <div class="content">
+                <h3>Nainital And Ranikhet</h3>
+                <p> Located by the famous Naini Lake in the valley, surrounded by mountains on all sides where one can enjoy majestic vistas of nature here.
+
+                </p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="Rishikesh-one-of-the-bst-places-to-visit-in-uttarakhand-400x266.webp" alt="">
+            <div class="content">
+                <h3>Rishikesh And Haridwar</h3>
+                <p>Haridwar and Rishikesh is a place where tourists get enchanted by rustic touch and spiritual energy of the place and its surroundings.
+                </p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="Panoramic-views-of-Almora1.webp" alt="">
+            <div class="content">
+                <h3>Almora</h3>
+                <p>Almora is one of the best off beat places to visit in Uttarakhand, especially in summer to escape the heat
+                    and recommended to the mountain lovers.</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="Blue-Canvas-Resort-Chakrata.webp" alt="">
+            <div class="content">
+                <h3>Chakrata</h3>
+                <p>The small and secluded hill town of Chakrata is an ideal place for those who are looking for a place to be silent and enjoy the beauty of the hills</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="Chopta.webp" alt="">
+            <div class="content">
+                <h3>Chopta </h3>
+                <p>Chopta is one of the least explored hamlets in the Himalayas and among the best Uttarakhand sightseeing places</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="Valley-of-flowers-in-summer.webp" alt="">
+            <div class="content">
+                <h3>Hemkund Sahib </h3>
+                <p>One of the most beautiful places to visit in Uttarakhand is the Valley of Flowers. For those who admire the beauty of nature, the valley of flowers near Hemkund Sahib is a paradise.</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="Kedarnath-Temple.webp" alt="">
+            <div class="content">
+                <h3>Chardham</h3>
+                <p>the diverse spiritual essence of India whilst exploring these
+                fascinating tourist places then nothing is better
+                than the visit to the Chardham- Yamunotri, Gangotri, Badrinath and Kedarnath.</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="Dhanaulti_2-400x300.webp" alt="">
+            <div class="content">
+                <h3>Dhanaulti</h3>
+                <p>Nestled amid the lofty Himalayan peaks, Dhanaulti is just about 60 km from the popular hill station called Mussoorie.</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="Mukteshwar-Temple.webp" alt="">
+            <div class="content">
+                <h3>Mukteshwar</h3>
+                <p>Mukteshwar is a small hill town in Uttarakhand and is located around 50km from Nainital.
+                     Uttarakhand is famous for its awesome views of Himalayan ranges and fun adventure sports.</p>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+<section class="review" id="review">
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="luffy1.jpg" alt="">
+                    <h3>Rohit Sharma</h3>
+                    <p>Nice Offers and Good to see such cheap prices with so much stuff and activities to do</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="luffy1.jpg" alt="">
+                    <h3>John Lawrence</h3>
+                    <p>Good services and the best thing is guide is very well prepared and knows literally the best spots </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="luffy1.jpg" alt="">
+                    <h3>Carey Anderson</h3>
+                    <p>Food quality is better and the amount of food served is also quite good </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="luffy1.jpg" alt="">
+                    <h3>Emily Clarke</h3>
+                    <p>Love the customer care support beacause they have contacts with the locals of the area and have a good connection</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</section>
+
+
+
+
+<section class="contact">
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+    <div class="row">
+        <div class="image">
+            <img src="airplane-flying-around-the-earth-for-travel-illustration-design-vector.jpg" alt="">
+        </div>
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+    </div>
+</section>
+
+<section class="brand-container">
+    <div class="swiper-container brand-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="pexels-photo-414612.jpeg" alt=""></div>
+        </div>
+    </div>
+</section>
+
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>about us</h3>
+            <p>We are just a bunch of web designers who are trying to create a website for the people to help them in travelling
+                amazing spots in the Uttarakhand state of India in affordable and with quality based services.
+            </p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">India</a>
+            <a href="#">Japan</a>
+            <a href="#">Usa</a>
+            <a href="#">Russia</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">linkedin</a>
+        </div>
+    </div>
+    <h1 class="credit">created by Mr web designer <span>| All rights reserved! |</span> </h1>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
